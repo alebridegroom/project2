@@ -48,6 +48,16 @@ CREATE TABLE "subcategory" (
      )
 );
 
+select * from campaign;
+
+select * from category;
+
+select * from contacts;
+
+select * from subcategory;
+
+
+
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "contacts" ("contact_id");
 
